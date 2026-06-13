@@ -1,0 +1,51 @@
+```gitignore
+# Virtual environment
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data
+data/
+*.xlsx
+*.xls
+
+# Generated outputs
+outputs/
+*.csv
+*.parquet
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# CatBoost service files
+catboost_info/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.cbm
+*.bin
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+```
