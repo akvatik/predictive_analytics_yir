@@ -20,14 +20,6 @@ data/
 *.xlsx
 *.xls
 
-# Generated outputs
-outputs/
-*.csv
-*.parquet
-*.png
-*.jpg
-*.jpeg
-*.svg
 
 # CatBoost service files
 catboost_info/

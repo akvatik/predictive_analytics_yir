@@ -1,0 +1,37 @@
+model,split,subset,n,RMSE,MAE,R2
+CatBoost (f_reg),train,all,8920,0.01175,0.00969,0.4435
+CatBoost (f_reg),train,steady,7273,0.01161,0.00961,0.4645
+CatBoost (f_reg),train,transient,1616,0.01199,0.00987,0.3424
+CatBoost (f_reg),val,all,2718,0.01514,0.01289,-0.1643
+CatBoost (f_reg),val,steady,2245,0.01518,0.01297,-0.1574
+CatBoost (f_reg),val,transient,468,0.01458,0.01236,-0.2626
+CatBoost (f_reg),test,all,832,0.01439,0.01189,0.0363
+CatBoost (f_reg),test,steady,656,0.01444,0.0119,0.045
+CatBoost (f_reg),test,transient,175,0.0142,0.01185,-0.0162
+LinReg (baseline),train,all,8920,0.01009,0.00802,0.5898
+LinReg (baseline),train,steady,7273,0.00987,0.00785,0.6133
+LinReg (baseline),train,transient,1616,0.01092,0.00873,0.4542
+LinReg (baseline),val,all,2718,0.01824,0.01535,-0.6907
+LinReg (baseline),val,steady,2245,0.01821,0.01528,-0.6653
+LinReg (baseline),val,transient,468,0.01832,0.01561,-0.9916
+LinReg (baseline),test,all,832,0.01517,0.01213,-0.0714
+LinReg (baseline),test,steady,656,0.0154,0.01223,-0.0871
+LinReg (baseline),test,transient,175,0.01426,0.01174,-0.0248
+persistence,train,all,8889,0.00671,0.00484,0.8174
+persistence,train,steady,7273,0.00604,0.00436,0.8549
+persistence,train,transient,1616,0.00913,0.00698,0.6188
+persistence,val,all,2713,0.00598,0.00418,0.8168
+persistence,val,steady,2245,0.00524,0.00368,0.8622
+persistence,val,transient,468,0.00869,0.00656,0.5515
+persistence,test,all,831,0.00601,0.00433,0.8317
+persistence,test,steady,656,0.00574,0.00405,0.8491
+persistence,test,transient,175,0.00692,0.00539,0.7582
+Prism (N посчит.),train,all,523,0.00458,0.00355,
+Prism (N посчит.),train,steady,371,0.00431,0.00329,
+Prism (N посчит.),train,transient,149,0.0052,0.00419,
+Prism (N посчит.),val,all,560,0.00543,0.00384,
+Prism (N посчит.),val,steady,447,0.00485,0.00343,
+Prism (N посчит.),val,transient,113,0.00728,0.00545,
+Prism (N посчит.),test,all,136,0.00469,0.00336,
+Prism (N посчит.),test,steady,101,0.00393,0.00288,
+Prism (N посчит.),test,transient,34,0.0065,0.00485,

@@ -1,0 +1,5 @@
+metric,scope,steady_median_abs,transient_median_abs,ratio_abs,steady_std,transient_std,steady_mean,transient_mean
+abs_dF1,all,0.003,0.00526,1.75033,0.00409,0.00575,0.00419,0.00677
+abs_dF1,oos,0.003,0.00451,1.50033,0.00381,0.0054,0.00376,0.00624
+resid,all,0.00989,0.00999,1.01016,0.01269,0.01313,0.00249,0.00118
+resid,oos,0.01232,0.0114,0.92576,0.01259,0.01252,0.00812,0.00732
